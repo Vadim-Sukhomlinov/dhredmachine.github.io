@@ -1,0 +1,14 @@
+footer {
+  margin: 40px 0;
+}
+
+.info {
+  background-color: rgb(70, 69, 69);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+  color: #fff;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 30px;
+}

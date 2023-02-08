@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.wrapper {
+  background-color: rgb(70, 69, 69);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.wr-left {
+  padding: 25px;
+}
+.myFoto img {
+  width: 300px;
+}
+
+.wr-right {
+  padding: 25px;
+  display: grid;
+  grid-template-rows: auto;
+  text-align: start;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+}
+
+.name {
+  color: rgb(112, 162, 238);
+}

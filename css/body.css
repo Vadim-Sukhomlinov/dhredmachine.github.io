@@ -1,0 +1,75 @@
+.section-progress {
+  background-color: rgb(70, 69, 69);
+  color: #fff;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+.skill-name {
+  color: #fff;
+  font-size: 30px;
+}
+
+.skills-block {
+  width: 800px;
+  background-color: #ccc;
+}
+.block-text {
+  text-align: right;
+  padding: 5px;
+  color: #fff;
+  font-size: 24px;
+  padding-right: 20px;
+}
+.html {
+  width: 90%;
+  background-color: #4caf50;
+}
+.css {
+  width: 70%;
+  background-color: #97c540;
+}
+.js {
+  width: 50%;
+  background-color: #eeeb2f;
+  color: #000;
+}
+
+/*hooby*/
+.hobby {
+  background-color: rgb(70, 69, 69);
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.football,
+.karate,
+.present-day {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+.football img,
+.karate img,
+.pd-img img {
+  width: 70px;
+  margin: 15px;
+}
+
+.fotball-text,
+.karate-text,
+.pd-text {
+  color: #fff;
+  text-align: center;
+}
